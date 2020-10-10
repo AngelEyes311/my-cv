@@ -1,0 +1,132 @@
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0;
+  border: #55a089 1rem solid; 
+  font-family: 'Cormorant', serif;
+  line-height: 2;
+}
+
+header {
+  background: url(https://i.ibb.co/gwF9XDG/bokeh-264537-1920.jpg);
+  background-position: center;
+  background-size: fill;
+  background-repeat: repeat;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+
+.name {
+  font-family: 'Cormorant', serif;
+  text-align: center;
+  font-weight: 700;
+  border: white 1rem solid;
+  margin: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background: white;
+  color: #55a089;
+  border: 3px #61576f solid;
+}
+
+.display-3 {
+  font-weight: 400;
+  font-family: 'Cormorant Unicase', serif;
+}
+
+li h5,
+.address, 
+.school {
+  font-weight: 500;
+  font-family: 'Cormorant', serif;
+}
+
+.sum-text,
+.bold {
+  font-weight: 700;
+}
+
+.address {
+  color: white;
+  background: #61576f;
+  padding: 1rem;
+}
+
+.address h4 {
+  margin: 0;
+  font-weight: 300;
+}
+
+.container {
+  margin-top: 2rem;
+  color: #61576f;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem  ;
+}
+
+h5, 
+h6{
+  margin: 0;
+  
+}
+
+.summary
+.qual, 
+.expert,
+.edu,
+.exp,
+.hobbies {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  
+}
+
+.topic {
+  background: #55a089;
+  color: white;
+  padding: 5px;
+  border-bottom: 3px #61576f solid;
+  border-left: 3px #61576f solid;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-family: 'Cormorant Unicase', serif;
+}
+
+.school {
+  display: flex;
+  justify-content: space-between;
+}
+.school2 {
+   display:flex;
+   
+ }
+
+.pad {
+   padding-left: 30px;
+   padding-right: 30px;
+ }
+
+ @media only screen and (max-width: 1000px) {
+   .container {
+     margin: 10px !important;
+     padding: 10px !important;
+   }
+
+   .display-3 {
+     font-size: 32px;
+   }
+ }
+
+
+
+
+
